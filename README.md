@@ -8,3 +8,8 @@ An arbitrary code editor may be used to edit the GLSL code. For Lange Nacht der 
 @ AdBK Nürnberg I used Notepad++ with its Topmost plugin for a transparent editor 
 window that stays on top.
 
+openFrameworks version: 0.9.8
+
+Note: Edit the "bool checkProgramLinkStatus(GLuint program)" in ofShader.h
+to be public. This is required for checking the validity of shader files before 
+loading.
