@@ -23,7 +23,6 @@ void ofApp::setup(){
 	if (m_arduinoConnected)
 		initArduino();
 
-	  // _T("C:\\Users\\Oliver Mayer\\Workspaces\\VisualStudio2015\\Projects\\LiveGlslCoding\\LiveGlslCoding\\bin\\data\\shader.frag");
 	m_fragShaderPath = ofToDataPath("shader.frag", true);
 	m_fragShaderRunPath = ofToDataPath("shader.frag.run", true);
 	m_vertShaderPath = ofToDataPath("shader.vert", true);

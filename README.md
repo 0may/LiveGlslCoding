@@ -10,6 +10,13 @@ window that stays on top.
 
 openFrameworks version: 0.9.8
 
-Note: Edit the "bool checkProgramLinkStatus(GLuint program)" in ofShader.h
+## Notes
+
+Edit the "bool checkProgramLinkStatus(GLuint program)" in ofShader.h
 to be public. This is required for checking the validity of shader files before 
 loading.
+
+On Lange Nacht der Wissenschaften an Arduino based input console was connected to 
+the setup providing two switches and three potentiometers for visitors to change 
+parameters in the code. Set the m_arduinoConnected variable in ofApp::setup() to false
+if no arduino is connected.
